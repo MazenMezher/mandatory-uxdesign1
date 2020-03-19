@@ -5,11 +5,8 @@ import "../Css/Switch.css";
 export class Switch extends Component {
     render() {
         return (
-            <div>
-                <label className="checkbox">
-                    <input type="checkbox" />
-                    <span className="fake"></span>
-                </label>
+            <div className="container">
+            <input className="switch" type="checkbox" name="" />
             </div>
         )
     }

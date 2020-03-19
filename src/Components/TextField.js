@@ -36,7 +36,7 @@ class TextField extends Component {
     render() {
         return (
             <div className={Class} data-placeholder="Name" >
-                <input type="text" className={Class} ref={this.onClick} onClick={this.clickOutsideOfInput} />
+                <input type="text" id="textField" className={Class} ref={this.onClick} onClick={this.clickOutsideOfInput} />
             </div>
         )
     }

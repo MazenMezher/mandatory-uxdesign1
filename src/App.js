@@ -13,6 +13,7 @@ function App() {
     <div className="App">
       <TextField />
       <Switch />
+      <Checkboxes />
     </div>
   );
 }
