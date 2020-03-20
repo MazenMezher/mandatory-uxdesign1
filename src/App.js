@@ -14,6 +14,7 @@ function App() {
       <TextField />
       <Switch />
       <Checkboxes />
+      <RadioButtons />
     </div>
   );
 }
