@@ -1,20 +1,29 @@
 import React from 'react';
-import logo from './logo.svg';
-import Checkboxes from "./Components/Checkboxes"
-import RadioButtons from "./Components/RadioButtons"
-import TextField from "./Components/TextField"
-import Switch from "./Components/Switch"
-
-
+import Main from "./Components/Main"
+import Demo from "./Components/Demo"
+import {Link} from "react-router-dom"
+import { BrowserRouter as Router, Route } from 'react-router-dom'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <TextField />
-      <Switch />
-      <Checkboxes />
-      <RadioButtons />
+
+      <Router>
+        <ul>
+          <li>
+            <Link to="/">To the Main page</Link>
+          </li>
+          <li>
+            <Link to="/demo">To the Demo page</Link>
+          </li>
+        </ul>
+
+        <Route exact path="/" component={Main} />
+        <Route path="/demo" component={Demo} />
+      </Router>
+      
+
     </div>
   );
 }

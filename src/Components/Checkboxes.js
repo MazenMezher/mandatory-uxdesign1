@@ -5,12 +5,13 @@ import "../Css/CheckBoxes.css";
 export class Checkboxes extends Component {
     render() {
         return (
-            <div>
+            <div className="checkBigBox">
                 <label class="container-checkbox">
                 <input type="checkbox" className="checked" />
                 <span class="checkmark"></span>
                 </label>
             </div>
+            
         )
     }
 }

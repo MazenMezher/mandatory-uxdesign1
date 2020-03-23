@@ -1,0 +1,27 @@
+.flex{
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+
+ul, li {
+    display: flex;
+    justify-content: space-around;
+}
+
+html {
+    background-color: #bebebe77;
+}
+
+p {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    margin: auto;
+    font: 12px;
+    font-style: oblique;
+}
+

@@ -3,6 +3,12 @@
     position: relative;
     cursor: pointer;
     font-size: 22px;
+    
+}
+
+span.checkmark{
+    left: 50%;
+    top: 49%;
 }
 
 .checkmark {
