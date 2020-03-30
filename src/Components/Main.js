@@ -14,11 +14,12 @@ export class Main extends Component {
         return (
             <div className="Main">
                 <div className="flex" >
-
+            
                 <TextField />
                 <Switch />
-                <Checkboxes />
                 <RadioButtons />
+                <Checkboxes />
+                
                 </div>
             </div>
         )

@@ -8,7 +8,11 @@
 
 span.checkmark{
     left: 50%;
-    top: 49%;
+    top: 60%;
+}
+
+.checkBox:focus {
+    border: 2px solid green;
 }
 
 .checkmark {
@@ -34,7 +38,6 @@ span.checkmark{
     display: block;
 }
 
-
 .checkmark:after {
     left: 7.5px;
     top: 2px;
@@ -51,6 +54,11 @@ span.checkmark{
     background-color: #ccc;
 }
 
+
+.checked:focus ~ .checkmark {
+    background-color: rgb(177, 177, 177);
+    border: 1px solid green;
+}
 .container-checkbox .checked:checked ~ .checkmark {
     background-color: #6200eeff;
     border: 2px solid #6200eeff;

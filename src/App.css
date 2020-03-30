@@ -25,3 +25,11 @@ p {
     font-style: oblique;
 }
 
+.disableCheckBox{
+    margin-left: 500px;
+    transform: scale(2.0);
+}
+
+.centerLabel{
+    text-align: center;
+}

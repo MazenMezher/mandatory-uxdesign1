@@ -58,3 +58,13 @@
     left: 0;
     background-color: #6200ee; 
 }
+
+.input-textField:disabled ~ .control-placeholder{
+    font-size: 16px;
+    opacity: 1;
+    color: #8a8a8a;
+}
+
+.input-textField:disabled {
+    border-bottom: 1px solid #1e1e1f33;
+}

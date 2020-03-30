@@ -5,11 +5,14 @@ import "../Css/CheckBoxes.css";
 export class Checkboxes extends Component {
     render() {
         return (
-            <div className="checkBigBox">
-                <label class="container-checkbox">
-                <input type="checkbox" className="checked" />
-                <span class="checkmark"></span>
+            <div>
+                <div className="checkBigBox">
+                    <label className="container-checkbox">
+                    <input type="checkbox" className="checked" disabled={this.props.disabled}/>
+                    <span className="checkmark"></span>
                 </label>
+                </div>
+                
             </div>
             
         )

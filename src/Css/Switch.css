@@ -11,6 +11,11 @@
     
 }
 
+.switch:focus{
+    background-color: rgb(177, 177, 177);
+    border: 1px solid green;
+}
+
 .switch:checked {
     background-color: #6200ee89;
 }

@@ -35,6 +35,10 @@
     background-color: #ccc;
 }
 
+.Radio:focus ~ .radio-checkmark {
+    background-color: #ccc;
+    border-radius: 2px solid green;
+}
 
 .radio-box .Radio:checked ~ .radio-checkmark {
     background-color: #eee;
